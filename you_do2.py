@@ -1,3 +1,7 @@
+# Bilal Sedef
+# Date: 2022-04-06
+# Description: Trendyol Data Science Bootcamp Homework
+
 import sklearn as sk
 import numpy as np
 import pandas as pd
