@@ -2,17 +2,8 @@
 # Date: 2022-04-06
 # Description: Trendyol Data Science Bootcamp Homework
 
-import sklearn as sk
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import os
-import sys
-import streamlit as st
-
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
 
 from tqdm import tqdm
 from time import sleep
