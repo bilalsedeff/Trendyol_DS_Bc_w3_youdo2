@@ -143,7 +143,7 @@ def w_matrix(r_: np.ndarray, k):
 
 
 ##
-# We construct the weight matrix which has the shape of [r_train.shape[0], top_n)
+# We construct the weight matrix which has the shape of (r_train.shape[0], top_n)
 matrix_ = w_matrix(r_copy, 4)
 
 
