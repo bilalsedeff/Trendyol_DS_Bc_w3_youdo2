@@ -74,7 +74,8 @@ def top_n(r_: np.ndarray, i: int, j: int, n: int) -> np.ndarray:
 
 
 ##
-# Below function randomly creates [1,n] shaped vector which will be used for predicting weights for r_hat prediction
+# Below function creates [1,n] shaped vectors which has random values between (-1,1) to be used for predicting
+# weights for r_hat calculation
 def w(top_n: int) -> np.ndarray:
     rnd = np.random.rand(top_n)
     rnd = rnd * 2 - 1
