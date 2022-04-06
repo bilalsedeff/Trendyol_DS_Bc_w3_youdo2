@@ -214,9 +214,9 @@ def main():
 ##
 if __name__ == "__main__":
     results = main()
-    fitted_r_train = main()[0]
-    performance = main()[1]
-    matrix_ = main()[2]
+    fitted_r_train = results[0]
+    performance = results[1]
+    matrix_ = results[2]
     print("Final Loss: ", total_loss(r_test, fitted_r_train))
 
 ##
